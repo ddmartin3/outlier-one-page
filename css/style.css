@@ -3,12 +3,19 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 header {
-  padding: 156px 0 100px;
+  padding: 0px;
 }
 
 section {
-  padding: 150px 0;
+  padding: 0;
 }
 
 .masthead {
@@ -18,4 +25,36 @@ section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#mainNav, footer{
+  background-color: black;
+}
+
+#orange-box{
+  background-color: rgba(240, 115, 13, 0.7);
+  color: azure;
+  float:right;
+}
+
+#orange-box p .lead{
+  opacity: 1;
+}
+
+#we-are{
+  padding-left: 4em; 
+  padding-right: 8em;
+  padding-top: 4.5em;
+  padding-bottom: 4.5em;
+  text-align: center;
+  margin: auto;
+}
+
+#about-text{
+  background-color: gray;
+  color: azure;
+  padding-left: 5.5em; 
+  padding-right: 8em;
+  padding-top: 8em;
+  padding-bottom: 8em;
 }
