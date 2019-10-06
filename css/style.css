@@ -33,6 +33,7 @@ section {
 
 #orange-box{
   background-color: rgba(240, 115, 13, 0.7);
+  font-family: 'Montserrat';
   color: azure;
   float:right;
 }
@@ -48,10 +49,12 @@ section {
   padding-bottom: 4.5em;
   text-align: center;
   margin: auto;
+  font-family: 'Lato'
 }
 
 #about-text{
   background-color: gray;
+  font-family: 'Montserrat';
   color: azure;
   padding-left: 5.5em; 
   padding-right: 8em;
